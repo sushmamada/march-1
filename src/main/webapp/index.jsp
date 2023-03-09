@@ -1,5 +1,5 @@
 <html>
 <body>
-<h2>HI WELCOME to NEXUS-PROJECT </h2>
+<h2>Building  MAVEN-PROJECT </h2>
 </body>
 </html>
