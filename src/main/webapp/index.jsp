@@ -1,5 +1,5 @@
 <html>
 <body>
-<h2>HI WELCOME TO NEXUS-PROJECT2 WEB APPLICATION</h2>
+<h2>HI WELCOME to NEXUS-PROJECT </h2>
 </body>
 </html>
