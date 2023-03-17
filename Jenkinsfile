@@ -41,6 +41,10 @@ pipeline {
 		    sh 'mvn deploy'
             }
 	    }
-
+	    stage('deploy war to tomcat'){
+		    steps{
+		deploy adapters: [tomcat9(credentialsId: 'TOMCAT', path: '', url: 'http://43.205.142.174:8080/')], contextPath: 'freestyle-pipeline', war: '**/*.war'
+	    }
+	    }
     }
 }
